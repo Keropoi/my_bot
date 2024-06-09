@@ -18,6 +18,10 @@
     <material name="black">
         <color rgba="0 0 0 1" />
     </material>
+    
+    <material name="red">
+        <color rgba="1 0 0 1" />
+    </material>
     <!-- BASE LINK -->
     <link name="base_link">
     </link>
@@ -26,7 +30,7 @@
         <child link="chassis" />
         <origin xyz="-0.1 0 0" />
     </joint>
-    <!-- CGASSIS LINK -->
+    <!-- CHASSIS LINK -->
     <link name="chassis">
         <visual>
             <origin xyz="0.15 0 0.075" rpy="0 0 0" />
